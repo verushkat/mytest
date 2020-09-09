@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65de88f-876b-4c47-a17e-287dacc8c0da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/my_web_e2e_tests.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/functions/fights/FlightReservationFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/functions/hotels/HotelReservationFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/flights/FlightReservationPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/hotels/HotelReservationPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/hotels/HotelReservation.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/tests/heroku/HerokuAppNewWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/flight/HerokuAppTableVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/tests/heroku/HerokuAppTableVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +80,7 @@
       <module name="my_web_e2e_tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="web.tests.flight.*" />
+          <option name="PATTERN" value="web.tests.heroku.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,7 +149,7 @@
       <module name="my_web_e2e_tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="web.tests.flight.*" />
+          <option name="PATTERN" value="web.tests.heroku.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,7 +176,7 @@
       <module name="my_web_e2e_tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="web.tests.flight.*" />
+          <option name="PATTERN" value="web.tests.heroku.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,13 +203,13 @@
       <module name="my_web_e2e_tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="web.tests.flight.*" />
+          <option name="PATTERN" value="web.tests.heroku.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="web.tests.flight" />
-      <option name="MAIN_CLASS_NAME" value="web.tests.flight.HerokuAppTableVerification" />
+      <option name="MAIN_CLASS_NAME" value="web.tests.heroku.HerokuAppTableVerification" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea " />
@@ -276,7 +273,7 @@
       <workItem from="1599452143408" duration="15000" />
       <workItem from="1599541151938" duration="15452000" />
       <workItem from="1599577742152" duration="15567000" />
-      <workItem from="1599641289392" duration="245000" />
+      <workItem from="1599641289392" duration="880000" />
     </task>
     <task id="LOCAL-00001" summary="Task 01">
       <created>1599640877729</created>
@@ -312,12 +309,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/web/tests/flight/FlightReservationTest.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/web/tests/flight/HerokuAppTableVerification.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/web/tests/heroku/HerokuAppTableVerification.java</url>
           <line>27</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>

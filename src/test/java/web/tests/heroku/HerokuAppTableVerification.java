@@ -1,4 +1,4 @@
-package web.tests.flight;
+package web.tests.heroku;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -7,9 +7,7 @@ import web.utils.TestBase;
 
 import java.util.List;
 
-/**
- * Created by verushkat on 9/9/2020
- */
+
 public class HerokuAppTableVerification extends TestBase {
 
     private HerokuAppFunction herokuAppFunction;
