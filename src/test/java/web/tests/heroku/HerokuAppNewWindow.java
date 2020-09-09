@@ -17,12 +17,13 @@ public class HerokuAppNewWindow extends TestBase {
     public void runBeforeClass(){
 
         windowFunction = new WindowFunction(driver);
+        driver.get("http://the-internet.herokuapp.com/windows");
     }
 
     @Test
     public void newWindowTest(){
 
-        driver.get("http://the-internet.herokuapp.com/windows");
+
         windowFunction.clickNewWindowLink();
 
         softAssert.assertTrue(windowFunction.verifyNewWindowTitleDisplayed() , " New window not displayed");
